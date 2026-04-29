@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Namaz Kuran Kıble</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 { color: #2c3e50; text-align: center; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 30px; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 20px; }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p><strong>Effective Date:</strong> <span id="currentDate"></span></p>
+
+        <p>This privacy policy applies to the <strong>Namaz Kuran Kıble</strong> app (hereby referred to as "Application") for mobile devices that was created by Utku Yüksel (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".</p>
+
+        <h2>1. Information Collection and Use</h2>
+        <p>The Application does not require you to create a user account, and it does not collect or upload any personal identification information to our servers. All core app functionalities are processed locally on your device.</p>
+        
+        <p>However, to provide specific features, the Application requests the following permissions and data:</p>
+        <ul>
+            <li><strong>Location Data:</strong> The Application requires access to your device's location (GPS/Network) to calculate accurate prayer times and determine the Qibla direction based on your current geographical position. This data is processed locally on your device and is <strong>not</strong> transmitted to, stored on, or shared with our servers.</li>
+            <li><strong>Notifications:</strong> The Application requires permission to send local notifications to alert you when a prayer time has arrived.</li>
+        </ul>
+
+        <h2>2. Third-Party Services and Advertising</h2>
+        <p>The Application uses third-party services that may collect information used to identify you, specifically for the purpose of serving advertisements and ensuring the basic functionality of the app.</p>
+        <p>The third-party service providers used by the Application are:</p>
+        <ul>
+            <li><strong>Google Play Services:</strong> Required for the core operation of Android apps.</li>
+            <li><strong>Google AdMob:</strong> Used to display advertisements within the Application. AdMob may use your advertising ID and location data to serve personalized or non-personalized ads.</li>
+        </ul>
+        <p>For more information on how these services handle your data, please refer to their respective privacy policies:</p>
+        <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">Google AdMob Privacy Policy</a></li>
+        </ul>
+
+        <h2>3. Data Security and Retention</h2>
+        <p>Since the Application does not transmit or store your personal data (such as location or app usage) on external servers, the concept of server-side data retention does not apply. Your location data remains strictly on your device.</p>
+
+        <h2>4. Children’s Privacy</h2>
+        <p>The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13. The Application is suitable for all ages, but if you are a parent and have concerns, please contact the Service Provider.</p>
+
+        <h2>5. Changes to This Privacy Policy</h2>
+        <p>The Service Provider may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. The Service Provider will notify you of any changes by posting the new Privacy Policy on this page.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact the Service Provider at:</p>
+        <p><strong>Email:</strong> <a href="mailto:35utkuyuksel@gmail.com">35utkuyuksel@gmail.com</a></p>
+    </div>
+
+    <script>
+        // Otomatik olarak bugünün tarihini ekler
+        const date = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('currentDate').textContent = date.toLocaleDateString('en-US', options);
+    </script>
+</body>
+</html>
